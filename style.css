@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-family: "Press Start 2P", cursive;
+    color: red;
+  }
+  
+  #display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: "Press Start 2P", cursive;
+    color: white;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
+  .error {
+    color: red;
+    font-family: "Press Start 2P", cursive;
+  }
+  
+  #timerMessage {
+    margin-top: 20px;
+    font-size: 16px;
+    /* color: #888; */
+    color: #c9c5c5;
+    font-family: "Press Start 2P", cursive;
+  }
+  
+  .success {
+    color: green;
+    font-family: "Press Start 2P", cursive;
+  }
+  

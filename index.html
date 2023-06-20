@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sabotagem de Oxigênio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sabotagem de Oxigênio</h1>
+    <p id="display">000</p>
+    <input type="number" id="inputNumber">
+    <button onclick="submitNumber()">Enviar</button>
+    <button id="startButton" onclick="startTimer()">Start</button>
+    <p id="errorMessage" class="error"></p>
+    <p id="timerMessage">Tempo restante: <span id="countdown">80</span> segundos</p>
+    <p id="successMessage" class="success"></p>
+    <audio id="backgroundMusic" src="Sound.mp3" loop></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
